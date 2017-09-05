@@ -3,9 +3,22 @@
 body {
   color: #333;
   font-family: "Roboto", "Helvetica Neue", sans-serif;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
 }
 
 li { margin-bottom: .5em; }
 
-a { color: #0ac; }
+a:link { color: #0ac; }
+a:visited {}
+a:hover { text-decoration: none; }
+a:active {}
+
+section {
+	margin-bottom: 2em;
+}
+
+.content {
+	margin: 6em auto;
+	width: 80%;
+}

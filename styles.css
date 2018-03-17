@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   color: #333;
   font-family: "Roboto", "Helvetica Neue", sans-serif;
   font-size: 16px;
-  -webkit-font-smoothing: antialiased;
 }
 
 li { margin-bottom: .5em; }
@@ -14,11 +22,32 @@ a:visited {}
 a:hover { text-decoration: none; }
 a:active {}
 
+header {
+  margin-bottom: 2em;
+}
+
 section {
 	margin-bottom: 2em;
 }
 
+h1, h2, p {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.027em;
+}
+
+h4 {
+  color: #CCC;
+  font-size: 0.889em;
+  font-weight: normal;
+  letter-spacing: .1em;
+  margin-bottom: .5rem;
+  text-transform: uppercase;
+}
+
 .content {
-	margin: 6em auto;
+	margin: 3em auto;
 	width: 80%;
 }

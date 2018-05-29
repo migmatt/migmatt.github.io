@@ -18,7 +18,7 @@ body {
 li { margin-bottom: .5em; }
 
 a:link { color: #0ac; }
-a:visited {}
+a:visited { color: #bcd; }
 a:hover { text-decoration: none; }
 a:active {}
 
